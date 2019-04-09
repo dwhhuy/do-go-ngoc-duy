@@ -1,1 +1,1 @@
-web: bundle exec python server -p 8000
+web: gunicorn gettingstarted.wsgi
