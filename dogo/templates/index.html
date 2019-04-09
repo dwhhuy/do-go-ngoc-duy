@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load staticfiles %}
 {% block content %}
   <!-- ================ header section end ================= -->
   <main class="site-main">
@@ -22,7 +23,7 @@
       <div class="container">
         <div class="section-intro text-center pb-80px">
           <div class="section-intro__style">
-            <img src="img/home/bed-icon.png" alt="">
+            <img src="{% static "img/home/bed-icon.png" %}" alt="">
           </div>
           <h2>Đồ Gỗ Mỹ Nghệ</h2>
         </div>
@@ -31,7 +32,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/Gmail/ban_ghe/IMG-2437.JPG" alt="">
+                <img class="card-img" src="{% static "img/Gmail/ban_ghe/IMG-2437.JPG" %}" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-explore__title"><a href="#">Bàn Ghế</a></h4>
@@ -44,7 +45,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/Gmail/tuong_go/IMG-2398.JPG" alt="">
+                <img class="card-img" src="{% static "img/Gmail/tuong_go/IMG-2398.JPG" %}" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-explore__title"><a href="#">Tượng Gỗ</a></h4>
@@ -57,7 +58,7 @@
           <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
             <div class="card card-explore">
               <div class="card-explore__img">
-                <img class="card-img" src="img/Gmail/IMG-2404.JPG" alt="">
+                <img class="card-img" src="{% static "img/Gmail/IMG-2404.JPG" %}" alt="">
               </div>
               <div class="card-body">
                 <h4 class="card-explore__title"><a href="#">Sản Phẩm Khác</a></h4>
@@ -84,4 +85,4 @@
 
   </main>
 
-  {% endblock %}
+{% endblock %}

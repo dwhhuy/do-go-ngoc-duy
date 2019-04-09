@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadfe68a-c31e-483a-8b2e-d96b70b96b97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dogo/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/dogo/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dogo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dogo/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dogo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dogongocduy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogongocduy/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dogo/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="76" lean-forward="true" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+            <state relative-caret-position="447">
+              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
             </state>
           </provider>
         </entry>
@@ -49,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/dogo/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -94,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/dogo/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -249,7 +246,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10653000" />
+    <option name="totallyTimeSpent" value="11924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -385,7 +382,7 @@
     <entry file="file://$PROJECT_DIR$/dogo/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
@@ -395,14 +392,14 @@
     <entry file="file://$PROJECT_DIR$/dogo/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="24" column="6" lean-forward="true" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dogo/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="76" lean-forward="true" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="76" />
+        <state relative-caret-position="447">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
