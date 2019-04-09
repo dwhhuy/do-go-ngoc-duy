@@ -1,6 +1,8 @@
+{% load staticfiles %}
+{% load compress %}
+
 <!DOCTYPE html>
 <html lang="en">
-{% load staticfiles %}
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -137,9 +139,7 @@
     </div>
   </footer>
   <!-- ================ End footer Area ================= -->
-
-
-
+{% compress js %}
   <script src="{% static 'vendors/jquery/jquery-3.2.1.min.js' %}"></script>
   <script src="{% static 'vendors/bootstrap/bootstrap.bundle.min.js' %}"></script>
   <script src="{% static 'vendors/magnefic-popup/jquery.magnific-popup.min.js' %}"></script>
@@ -150,6 +150,7 @@
   <script src="{% static 'vendors/jquery.ajaxchimp.min.js' %}"></script>
   <script src="{% static 'vendors/mail-script.js' %}"></script>
   <script src="{% static 'js/main.js' %}"></script>
+{% endcompress %}
 </body>
 
 </html>
