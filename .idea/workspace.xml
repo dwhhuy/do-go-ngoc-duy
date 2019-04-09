@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eadfe68a-c31e-483a-8b2e-d96b70b96b97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dogo/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dogo/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="eadfe68a-c31e-483a-8b2e-d96b70b96b97" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dogo/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
               <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -123,13 +130,7 @@
         <option value="$PROJECT_DIR$/dogo/templates/base.html" />
         <option value="$PROJECT_DIR$/dogo/views.py" />
         <option value="$PROJECT_DIR$/dogo/templates/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -151,32 +152,6 @@
             <path>
               <item name="do-go-ngoc-duy" type="b2602c69:ProjectViewProjectNode" />
               <item name="do-go-ngoc-duy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="do-go-ngoc-duy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="do-go-ngoc-duy" type="462c0819:PsiDirectoryNode" />
-              <item name="dogo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="do-go-ngoc-duy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="do-go-ngoc-duy" type="462c0819:PsiDirectoryNode" />
-              <item name="dogo" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="do-go-ngoc-duy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="do-go-ngoc-duy" type="462c0819:PsiDirectoryNode" />
-              <item name="dogongocduy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="do-go-ngoc-duy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="do-go-ngoc-duy" type="462c0819:PsiDirectoryNode" />
-              <item name="media" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="do-go-ngoc-duy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="do-go-ngoc-duy" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,7 +221,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11924000" />
+    <option name="totallyTimeSpent" value="12527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -400,6 +375,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
           <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
         </state>
       </provider>
     </entry>
