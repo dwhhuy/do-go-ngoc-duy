@@ -76,14 +76,14 @@ WSGI_APPLICATION = 'dogongocduy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'a8f6c1cfdf20066fbac6e907bc28a4d9f5371009381b6ad6f6c768efd91787f6',
-        'USER': 'pqcyngxjznaemn',
-        'PASSWORD': 'a8f6c1cfdf20066fbac6e907bc28a4d9f5371009381b6ad6f6c768efd91787f6',
-        'HOST': 'ec2-23-21-136-232.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+import dj_database_url
+db_from_env = dj_database_url.config()
+DATABASES['default'].update(db_from_env)
 
 
 # Password validation
