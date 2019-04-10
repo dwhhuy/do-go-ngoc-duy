@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.shortcuts import render
+from django.shortcuts import render, render_to_response
 from dogo.models import Post, Product, Tag
 import json
 
@@ -19,5 +19,5 @@ def contact(request):
 
 
 def chair(request):
-    product = Product.objects.get(product_tag=1)
-    return render(request, 'ban_ghe.html', product)
+    products = Product.objects.filter(product_tag=1)
+    return render(request, 'ban_ghe.html', context={'data': products})

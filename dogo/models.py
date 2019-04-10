@@ -12,7 +12,7 @@ class Tag(models.Model):
 
 
 class Product(models.Model):
-    image = models.FileField()
+    image = models.ImageField(upload_to='media/')
     product_name = models.CharField(max_length=200)
     product_price = models.CharField(blank=True, max_length=200)
     product_tag = models.ForeignKey(Tag)

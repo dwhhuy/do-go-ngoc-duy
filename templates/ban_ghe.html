@@ -1,9 +1,7 @@
 {% extends 'base.html' %}
+ {% load static %}
 {% load staticfiles %}
 {% block content %}
-    {% for product in context %}
-        {{ product.product_name }}
-    {% endfor %}
 	<!-- ================ start banner area ================= -->
 	<section class="contact-banner-area" id="gallery">
 		<div class="container h-100">
@@ -17,12 +15,20 @@
 	<!-- ================ end banner area ================= -->
 
 	<!-- ================ start gallery section ================= -->
+
 	<section class="section-margin">
 		<div class="container">
 			<div class="section-intro text-center pb-80px">
 				<div class="section-intro__style">
-					<img src="img/home/bed-icon.png" alt="">
+					<img src="{% static "img/home/bed-icon.png" %}" alt="">
 				</div>
+                {% for product in data %}
+
+                        {{ product.product_name }}
+                        {{ product.image.url }}
+                        <img src="{{ product.image.url }}" alt="" class="card-img rounded-0">
+
+                {% endfor %}
 				<h2>Bàn Ghế</h2>
 				<h5>Giá vui lòng liên hệ : 0936 41 41 22</h5>
 			</div>
