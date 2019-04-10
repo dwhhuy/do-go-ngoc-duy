@@ -26,5 +26,5 @@ urlpatterns = [
     url(r'ban-ghe', views.chair, name='ban-ghe'),
     url(r'tuong-go', views.contact, name='tuong-go'),
     url(r'sp-khac', views.contact, name='sp-khac'),
-    url(r'', views.home, name='home'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+    url(r'^$', views.home, name='home'),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
