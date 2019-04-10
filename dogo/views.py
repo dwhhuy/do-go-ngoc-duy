@@ -3,6 +3,7 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 from dogo.models import Post, Product, Tag
+import json
 
 
 def home(request):
@@ -18,5 +19,5 @@ def contact(request):
 
 
 def chair(request):
-    product = Product.objects.filter(product_tag=1)
-    return render(request, 'ban_ghe.html')
+    product = Product.objects.get(product_tag=1)
+    return render(request, 'ban_ghe.html', product)
