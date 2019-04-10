@@ -27,7 +27,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div id="logo">
-            <a href="/seapalace"><h3>Ngọc Duy</h3></a>
+            <a href=""><h3>Ngọc Duy</h3></a>
           </div>
           <div class="ml-auto d-none d-md-block d-md-flex">
             <div class="media header-top-info">
@@ -62,19 +62,19 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav">
-              <li class="nav-item active"><a class="nav-link" href="/seapalace">Trang Chủ</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">Giới Thiệu</a></li>
+              <li class="nav-item active"><a class="nav-link" href="{% url 'home' %}">Trang Chủ</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">Giới Thiệu</a></li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Sản Phẩm</a>
                 <ul class="dropdown-menu">
-                  <li class="nav-item"><a class="nav-link" href="ban_ghe.html">Bàn Ghế</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{% url 'ban-ghe' %}">Bàn Ghế</a></li>
                   <li class="nav-item"><a class="nav-link" href="tuong_go.html">Tượng Gỗ</a></li>
                   <li class="nav-item"><a class="nav-link" href="sp_khac.html">Sản Phẩm Khác</a></li>
 
                 </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="contact.html">Liên Hệ</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% url 'contact' %}">Liên Hệ</a></li>
             </ul>
           </div>
 
@@ -86,15 +86,6 @@
         </div>
       </nav>
 
-      <!-- <div class="search_input" id="search_input_box">
-        <div class="container">
-          <form class="d-flex justify-content-between">
-            <input type="text" class="form-control" id="search_input" placeholder="Search Here">
-            <button type="submit" class="btn"></button>
-            <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
-          </form>
-        </div>
-      </div> -->
     </div>
   </header>
   {% block content %}

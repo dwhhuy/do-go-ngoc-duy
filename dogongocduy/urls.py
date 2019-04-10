@@ -18,6 +18,11 @@ from django.contrib import admin
 from dogo import views
 
 urlpatterns = [
-    url(r'^admin', admin.site.urls),
-    url(r'', views.home)
+    url(r'^admin/', admin.site.urls),
+    url(r'about', views.about, name='about'),
+    url(r'contact', views.contact, name='contact'),
+    url(r'ban-ghe', views.chair, name='ban-ghe'),
+    url(r'tuong-go', views.contact, name='tuong-go'),
+    url(r'sp-khac', views.contact, name='sp-khac'),
+    url(r'', views.home, name='home'),
 ]
