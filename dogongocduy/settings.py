@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'dogongocduy.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd35gjvg46tj2ui',
+        'USER': 'pqcyngxjznaemn',
+        'PASSWORD': 'a8f6c1cfdf20066fbac6e907bc28a4d9f5371009381b6ad6f6c768efd91787f6',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
