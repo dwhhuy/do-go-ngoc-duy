@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eadfe68a-c31e-483a-8b2e-d96b70b96b97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dogongocduy/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/dogongocduy/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Screenshot_from_2019-04-07_22-26-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Screenshot_from_2019-04-07_22-26-55_Afq01v0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Webp.net-resizeimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/Webp.net-resizeimage_1.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dogongocduy/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+            <state relative-caret-position="354">
+              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -159,6 +154,8 @@
       <find>fa-solid-900.svg</find>
       <find>owl.video.play.png</find>
       <find>django.views.static.serve</find>
+      <find>https</find>
+      <find>secur</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -346,12 +343,12 @@
       <workItem from="1554736532446" duration="5659000" />
       <workItem from="1554884805651" duration="3649000" />
       <workItem from="1554980100331" duration="1138000" />
-      <workItem from="1554981779713" duration="676000" />
+      <workItem from="1554981779713" duration="1481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54560000" />
+    <option name="totallyTimeSpent" value="55365000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
@@ -677,8 +674,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dogongocduy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="28" column="103" selection-start-line="28" selection-start-column="103" selection-end-line="28" selection-end-column="103" />
+        <state relative-caret-position="354">
+          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>

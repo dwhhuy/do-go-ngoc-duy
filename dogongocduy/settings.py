@@ -137,3 +137,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 #     "django.contrib.auth.context_processors.auth",
 #     "django.contrib.messages.context_processors.messages",
 # )
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
