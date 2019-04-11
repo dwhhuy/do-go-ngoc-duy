@@ -1080,7 +1080,7 @@ button {
       .contact-banner h1 {
         font-size: 48px; } }
   .contact-banner-area {
-    height: 280px;
+    height: 333px;
     background: url("../img/Gmail/tuong_go/IMG-2410.JPG") center center no-repeat;
     background-size: cover;
     position: relative;
@@ -1090,7 +1090,7 @@ button {
         height: 500px; } }
     @media (min-width: 1000px) {
       .contact-banner-area {
-        height: 625px; } }
+        height: 660px; } }
     .contact-banner-area .contact-banner {
       position: absolute;
       top: 58%;
