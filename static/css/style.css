@@ -378,11 +378,11 @@ button {
   /* End Main Menu Area css*/ }
 
 .header-top {
-  padding: 17px 0;
+  padding: 2px 0;
   border-bottom: 1px solid #F0F0F0; }
   @media (min-width: 767px) {
     .header-top {
-      padding: 20px 0; } }
+      padding: 2px 0; } }
   .header-top .logo {
     display: inline-block; }
   @media (max-width: 767px) {
@@ -1191,18 +1191,15 @@ button {
       .blog-banner h1 {
         font-size: 48px; } }
   .blog-banner-area {
-    height: 900px;
-    background: url("../img/Gmail/IMG-2499.JPG") top center no-repeat;
-    background-size: cover;
+    height: 10px;
     position: relative;
     z-index: 1; }
     @media (min-width: 600px) {
       .blog-banner-area {
-        background: url("../img/Gmail/IMG-2427.JPG") top center no-repeat !important;
-        height: 1000px; } }
+        height: 10px; } }
     @media (min-width: 1000px) {
       .blog-banner-area {
-        height: 1200px; } }
+        height: 10px; } }
     .blog-banner-area .blog-banner {
       position: absolute;
       top: 58%;

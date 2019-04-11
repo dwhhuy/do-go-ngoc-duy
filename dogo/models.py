@@ -24,7 +24,7 @@ class Product(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
-    image = models.FileField()
+    image = models.ImageField(upload_to='media/')
 
     def __unicode__(self):
         return self.title

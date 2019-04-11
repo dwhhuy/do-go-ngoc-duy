@@ -2,6 +2,6 @@
 db.sqlite3
 /migrations
 *.pyc
-.idea/
+/.idea/
 staticfiles/
 media/

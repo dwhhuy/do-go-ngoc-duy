@@ -27,7 +27,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div id="logo">
-            <a href=""><h3>Ngọc Duy</h3></a>
+            <a href="{% url 'home' %}"><img src="{% static 'img/logo1.png' %}"></a>
           </div>
           <div class="ml-auto d-none d-md-block d-md-flex">
             <div class="media header-top-info">
@@ -62,15 +62,16 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
             <ul class="nav navbar-nav menu_nav">
-              <li class="nav-item active"><a class="nav-link" href="{% url 'home' %}">Trang Chủ</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% url 'home' %}">Trang Chủ</a></li>
+              <li class="nav-item"><a class="nav-link" href="{% url 'bai-viet' %}">Bài Viết</a></li>
               <li class="nav-item"><a class="nav-link" href="{% url 'about' %}">Giới Thiệu</a></li>
               <li class="nav-item submenu dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Sản Phẩm</a>
                 <ul class="dropdown-menu">
                   <li class="nav-item"><a class="nav-link" href="{% url 'ban-ghe' %}">Bàn Ghế</a></li>
-                  <li class="nav-item"><a class="nav-link" href="tuong_go.html">Tượng Gỗ</a></li>
-                  <li class="nav-item"><a class="nav-link" href="sp_khac.html">Sản Phẩm Khác</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{% url 'tuong-go' %}">Tượng Gỗ</a></li>
+                  <li class="nav-item"><a class="nav-link" href="{% url 'sp-khac' %}">Sản Phẩm Khác</a></li>
 
                 </ul>
               </li>

@@ -1,114 +1,46 @@
 {% extends 'base.html' %}
- {% load static %}
+{% load static %}
 {% load staticfiles %}
 {% block content %}
-	<!-- ================ start banner area ================= -->
-	<section class="contact-banner-area" id="gallery">
-		<div class="container h-100">
-			<div class="contact-banner">
-				<div class="text-center">
+    <!-- ================ start banner area ================= -->
+    <section class="contact-banner-area" id="gallery">
+        <div class="container h-100">
+            <div class="contact-banner">
+                <div class="text-center">
 
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ================ end banner area ================= -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ================ end banner area ================= -->
 
-	<!-- ================ start gallery section ================= -->
+    <!-- ================ start gallery section ================= -->
 
-	<section class="section-margin">
-		<div class="container">
-			<div class="section-intro text-center pb-80px">
-				<div class="section-intro__style">
-					<img src="{% static "img/home/bed-icon.png" %}" alt="">
-				</div>
+    <section class="section-margin">
+        <div class="container">
+            <div class="section-intro text-center pb-80px">
+                <div class="section-intro__style">
+                    <img src="{% static "img/home/bed-icon.png" %}" alt="">
+                </div>
+                <h2>Bàn Ghế</h2>
+                <h5>Giá vui lòng liên hệ : 0936 41 41 22</h5>
+            </div>
+
+            <div class="row">
                 {% for product in data %}
-
-                        {{ product.product_name }}
-                        {{ product.image.url }}
-                        <img src="{{ product.image.url }}" alt="" class="card-img rounded-0">
-
+                    <div class="col-6 mb-4">
+                        <a href="{{ product.image.url }}" class="img-gal card-img">
+                            <div class="single-imgs relative">
+                                <div class="overlay overlay-bg"></div>
+                                <div class="relative">
+                                    <img class="card-img rounded-0" src="{{ product.image.url }}" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 {% endfor %}
-				<h2>Bàn Ghế</h2>
-				<h5>Giá vui lòng liên hệ : 0936 41 41 22</h5>
-			</div>
-
-			<div class="row">
-				<div class="col-md-5">
-					<div class="row">
-						<div class="col-12 mb-4">
-							<a href="img/Gmail/ban_ghe/IMG-2413.JPG" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/Gmail/ban_ghe/IMG-2413.JPG" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-12 mb-4">
-							<a href="img/Gmail/ban_ghe/IMG-2437.JPG" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/Gmail/ban_ghe/IMG-2437.JPG" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-12 mb-4">
-							<a href="img/Gmail/ban_ghe/IMG-2435.JPG" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/Gmail/ban_ghe/IMG-2435.JPG" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-7">
-					<div class="row">
-						<div class="col-sm-12 mb-4">
-							<a href="img/Gmail/ban_ghe/IMG-2418.JPG" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/Gmail/ban_ghe/IMG-2418.JPG" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-12 mb-4">
-							<a href="img/Gmail/ban_ghe/IMG-2428.JPG" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/Gmail/ban_ghe/IMG-2428.JPG" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12 mb-4">
-							<a href="img/Gmail/ban_ghe/IMG-2439.JPG" class="img-gal card-img">
-								<div class="single-imgs relative">
-									<div class="overlay overlay-bg"></div>
-									<div class="relative">
-										<img class="card-img rounded-0" src="img/Gmail/ban_ghe/IMG-2439.JPG" alt="">
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- ================ end gallery section ================= -->
+            </div>
+        </div>
+    </section>
+    <!-- ================ end gallery section ================= -->
 {% endblock %}
