@@ -538,8 +538,8 @@ button {
         margin-bottom: 45px; } }
   .home-banner-area {
     height: 600px;
-    background: url("../img/Gmail/ban_ghe/IMG-2429.JPG") center center no-repeat;
-    background-size: cover;
+    /*background: url("../img/Gmail/ban_ghe/IMG-2429.JPG") center center no-repeat;*/
+    /*background-size: cover;*/
     position: relative;
     z-index: 1; }
     @media (min-width: 992px) {
