@@ -30,12 +30,9 @@
                 {% for product in data %}
                     <div class="col-6 mb-4">
                         <a href="{{ product.image.url }}" class="img-gal card-img">
-                            <div class="single-imgs relative">
-                                <div class="overlay overlay-bg"></div>
-                                <div class="relative">
-                                    <img class="card-img rounded-0" src="{{ product.image.url }}" alt="">
-                                </div>
-                            </div>
+
+                                    <img class="card-img" src="{{ product.image.url }}" alt="" style="border-radius: 3%">
+
                         </a>
                     </div>
                 {% endfor %}
