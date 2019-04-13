@@ -12,7 +12,7 @@ class Tag(models.Model):
 
 
 class Product(models.Model):
-    image = models.ImageField(upload_to='media/')
+    image = models.ImageField()
     product_name = models.CharField(max_length=200)
     product_price = models.CharField(blank=True, max_length=200)
     product_tag = models.ForeignKey(Tag)
@@ -24,7 +24,7 @@ class Product(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length=200)
     content = models.TextField()
-    image = models.ImageField(upload_to='media/')
+    image = models.ImageField()
 
     def __unicode__(self):
         return self.title
